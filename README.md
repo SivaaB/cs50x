@@ -9,7 +9,7 @@ Harvard CS50x — 2022
 </h1>
 
 <p align="center">
-  <a href="https://cs50.harvard.edu/x/2023/">Course Link</a> |
+  <a href="https://cs50.harvard.edu/x/2023/">Course Link</a>
 </p>
 
 
