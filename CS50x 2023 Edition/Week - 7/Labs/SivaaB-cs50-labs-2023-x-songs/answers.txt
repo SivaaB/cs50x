@@ -1,0 +1,3 @@
+We can charecterize their Audio Auora by parsing through their top songs and top artists of their year.
+
+This may not be very representative as 100 songs is a very small dataset. One better way to do this could be to take a larger sample space.

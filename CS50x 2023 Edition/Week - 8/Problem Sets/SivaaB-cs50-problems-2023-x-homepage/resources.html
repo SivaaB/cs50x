@@ -1,0 +1,61 @@
+<!-- Resources page: An educational website about guinea pigs and how to treat them as pets. -->
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <!-- Bootstrap link -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Stylesheet link -->
+    <link href="styles.css" rel="stylesheet">
+    <title>Pigs for Noobs | Resources</title>
+    <script>
+    // Play a clip of a guinea pig squeaking when a user clicks the gpig button in the nav-bar.
+    // Audio code learned about here: https://stackoverflow.com/questions/18826147/javascript-audio-play-on-click
+    function play_sound(url) {
+      new Audio(url).play();
+    }
+    </script>
+  </head>
+  <body>
+    <!-- Navigation bar for Pigs for Noobs! -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="index.html"><b>Pigs for Noobs!</b></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="behavior.html">Guinea Pig Behavior</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="care.html">Guinea Pig Care</a>
+          <li class="nav-item active">
+            <a class="nav-link" href="resources.html">Resources</a>
+          </li>
+        </ul>
+        <!-- Button/audio clip of guinea pig squeaking used in the nav-bar -->
+        <button onclick="play_sound('sounds/gpig_squeak.m4a')" type="button" class="btn btn-outline-info"><img src="images/gPigFace.png" alt="Image of a guinea pig face" width="30"></button>
+      </div>
+    </nav>
+
+    <!-- Resources Content -->
+    <h1>Resources</h1>
+    <hr class="solid">
+    <img class="indent" src="images/studious_pig.jpg" alt="A studious pig." width="350" style="border: 2px solid grey;
+                 border-radius: 8px;">
+    <h6 class="indent" style="margin-top: 15px"><em>"Holy hay bundle! In Switzerland, owning a single guinea pig is considered harmful to its well-being and forbidden by law!"</em><br><br></h6>
+
+    <p>Along with the videos and links on the other pages, you can find more beginner information below:</p>
+    <ul class="indent" style="padding-bottom: 30px">
+      <li><a target="_blank" href="https://www.animalhumanesociety.org/adoption/guinea-pig-care">Guinea Pig Care, Animal Humane Society</a></li>
+      <li><a target="_blank" href="https://www.peta.org/features/guinea-pigs-starter-pets-kids/">Are guinea pigs good starter pets for kids?, PETA</a></li>
+      <li><a target="_blank" href="https://en.wikipedia.org/wiki/Guinea_pig#As_pets">Guinea Pigs as Pets, Wikipedia</a></li>
+      <li><a target="_blank" href="https://www.guineapigcages.com/forum/forum.php">A great forum for discussing guinea pigs, Guineapigcages.com</a></li>
+      <li><a target="_blank" href="https://www.reddit.com/r/guineapigs/">Another forum for the guinea-pig-inclined, Reddit.com/r/guineapigs</a></li>
+    </ul>
+  </body>
+</html>

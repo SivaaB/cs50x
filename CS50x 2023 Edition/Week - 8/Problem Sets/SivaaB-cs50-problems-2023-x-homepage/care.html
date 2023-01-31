@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <title>Pigs for Noobs | Care</title>
+    <script>
+    // Play a clip of a guinea pig squeaking when a user clicks the gpig button in the nav-bar.
+    // Audio code learned about here: https://stackoverflow.com/questions/18826147/javascript-audio-play-on-click
+    function play_sound(url) {
+      new Audio(url).play();
+    }
+    </script>
+  </head>
+  <body>
+    <!-- Navigation bar for Pigs for Noobs! -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="index.html"><b>Pigs for Noobs!</b></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="behavior.html">Guinea Pig Behavior</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="care.html">Guinea Pig Care</a>
+          <li class="nav-item">
+            <a class="nav-link" href="resources.html">Resources</a>
+          </li>
+        </ul>
+        <!-- Button/audio clip of guinea pig squeaking used in the nav-bar -->
+        <button onclick="play_sound('sounds/gpig_squeak.m4a')" type="button" class="btn btn-outline-info"><img src="images/gPigFace.png" alt="Image of a guinea pig face" width="30"></button>
+      </div>
+    </nav>
+
+    <!-- Care Content -->
+    <h1>Care</h1>
+    <!-- Care Notes -->
+    <h4>A Few Notes on Care</h4>
+    <hr class="solid">
+    <p>
+      Caring for floofballs requires a <em>little bit</em> of effort, <em>not</em> an outstanding degree of it. I'll list some important factors
+      here without going into too much depth, and then point you to some resources for your further investigation (and as a
+      good, responsible guinea pig owner, I <em>know</em> you will be doing further investigations :D).
+    </p>
+    <!-- Cage section -->
+    <h4>Cages</h4>
+    <hr class="solid">
+    <p>
+      Don't even think about buying one of those small, metal cages you see at the store. Even for one pig, that is not enough space.
+      Putting a pig in a cage like that would be like putting <em>you</em> in a janitor's closet for the rest of your life. Do you want to
+      live in a janitor's closet? Didn't think so.<br><br>
+
+      Pigs need space to run around so they can live happy lives. To prance with glee amongst plentitudes of strewn hay and poop pellets. Do not deny them this joy.<br><br>
+
+      BAD cage:<br><br>
+      <img src="images/crap_cage.jpeg" alt="A crappy cage." width="450" style="filter: grayscale(100%); border: 2px solid grey;
+               border-radius: 8px;"><br><br>
+
+      <b>Good cages</b> have a lot of space (with hiding places for guinea pigs to run to if they feel threatened).
+      These cages can come in many different forms that you can either build yourself or buy prebuilt.
+
+      <br><br>Here's an example of a GREAT cage:<br><br>
+      <img src="images/great_cage.jpg" alt="A great cage." width="450" style="border: 2px solid grey;
+               border-radius: 8px;"><br><br>
+
+      Here's a video on how to build a great C&C (Cubes and Coroplast) cage (for about $40), similar to what you see
+      in the image above (YouTube channel: Scotty's Animals):<br><br>
+      <iframe style="margin-bottom: 20px" src="https://www.youtube.com/embed/Oj7BecXQLC8" height="300" width="600" title="Guinea Pig C&C cage building via Scotty's Animals"></iframe>
+    </p>
+    <!-- Diet section -->
+    <h4>Diet</h4>
+    <hr class="solid">
+    <p>
+      What a guinea pig eats is very important! Eating too much or too little of what they require can cause sickness in these little furballs.<br><br>
+      Guinea pig diets should consist of water, timothy hay, timothy-hay based pellets, fresh fruits, and fresh vegetables.
+      Good quality hay should be their staple food. Pellets come second to that, and fruits and vegetables should be served
+      in moderation per this <a target="_blank" href="https://www.guineapigcages.com/forum/threads/22156-READ-ME-Cavy-Nutrition-Charts-amp-Poisonous-Plants-List">nutrition chart</a>.
+      Preserved treats and snacks should generally be avoided, as they can contain ingredients that may be harmful to a guinea
+      pig's health!<br><br>
+
+      A video on good diet practices (YouTube Channel: Erin's Ark):<br><br>
+      <iframe style="margin-bottom: 20px" src="https://www.youtube.com/embed/I3-4tuK8Vxs" height="300" width="600" title="Good diet practices via Erin's Ark"></iframe>
+      <br><br>
+
+      A video on preserved treats and snacks (YouTube Channel: PetiteCavy):<br><br>
+      <iframe style="margin-bottom: 20px" src="https://www.youtube.com/embed/ptCtXHAAWKo" height="300" width="600" title="Harmful treats via PetiteCavy"></iframe>
+    </p>
+    <!-- Environment section -->
+    <h4>Social Environment</h4>
+    <hr class="solid">
+    <h5 class="indent" style="margin-top: 30px">Furball Friends for Your Furball</h5>
+    <p>
+      Piggles are social animals. That said, they should have piggle friends to live and play with. Imagine if you had no
+      humans to interact with and only an alien overlord to talk to. That might get weird. So do your guinea pig a favor,
+      and get them another guinea pig (or pigs)!<br><br>
+
+      Look at these guinea pigs just hanging out (YouTube Channel: It's Pigs!):
+      <br><br>
+      <iframe src="https://www.youtube.com/embed/XoD_H9x_DF0" height="300" width="600" title="Guinea pigs hanging out via It's Pigs!"></iframe>
+    </p>
+    <h5 class="indent" style="margin-top: 30px">Non-furball Friends for Your Furball</h5>
+    <p>
+      That means you. You can be a friend to your guinea pig. That means respecting it as an autonomous living creature and
+      not treating it like <a target="_blank" href="https://www.youtube.com/embed/pxvzEfI0BFU">Elmyra from Tiny Toon Adventures</a>
+      does her pets.<br><br>
+
+      Once and only once you're buddy-buddy and your guinea pig actually likes you a lot, may you commence with the cuddling.
+      Before that happens, you can talk to the little squeaker, feed it, and get it used to you holding it. More on taming your
+      guinea pig in the following video (YouTube Channel: Scotty's Animals):<br><br>
+      <iframe style="margin-bottom: 20px" src="https://www.youtube.com/embed/ciIXZyW0Pf4" height="300" width="600" title="Guinea Pig taming via Scotty's Animals"></iframe>
+    </p>
+    <h4 class="indent" style="margin-top: 30px">Playtime</h4>
+    <hr class="solid">
+    <p style="margin-bottom: 30px">
+      Imagine that you had to stay inside of your room ALL the time. It would feel like prison right? Well, if you don't
+      want your guinea pigs to feel like prisoners, you should let them out to PLAY.<br><br> Could just be inside a room,
+      could be in a small enclosure within the room, could even be outside in the grass (just be wary of other animals
+      (including birds) that might prey on your guinea pigs). As long as they get some time outside of their cage to run
+      around, you can ensure yourself a happy furball. 10-20 minutes a day should do!<br><br>
+      <iframe src="https://www.youtube.com/embed/bufumF5CP6A" height="300" width="600" title="Guinea Pig playtime via Erin's Ark"></iframe>
+    </p>
+  </body>
+</html>

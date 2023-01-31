@@ -1,0 +1,61 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Your Account
+{% endblock %}
+
+{% block main %}
+<h4>Account Summary</h4>
+<h6>You have ${{ grand_total }} available.</h6>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">Account Type</th>
+      <th scope="col"></th>
+      <th scope="col"></th>
+      <th scope="col">Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Investments</td>
+      <td></td>
+      <td></td>
+      <td>${{ investment_total }}</td>
+    </tr>
+     <tr>
+      <td>Cash</td>
+      <td></td>
+      <td></td>
+      <td>${{ cash }}</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+<br>
+<h4>Stocks Owned</h4>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">Symbol</th>
+      <th scope="col">Name</th>
+      <th scope="col">Shares Owned</th>
+      <th scope="col">Current Price</th>
+      <th scope="col">Total Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for item in stocks_owned %}
+    <tr>
+      <td>{{ item["symbol"] }}</td>
+      <td>{{ item["name"] }}</td>
+      <td>{{ item["SUM(shares)"] }}</td>
+      <td>${{ item["price"] }}</td>
+      <td>${{ item["total"] }} </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endblock %}

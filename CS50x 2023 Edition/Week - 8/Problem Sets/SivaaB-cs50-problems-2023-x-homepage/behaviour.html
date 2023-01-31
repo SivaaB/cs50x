@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <title>Pigs for Noobs | Behavior</title>
+    <script>
+    // Play a clip of a guinea pig squeaking when a user clicks the gpig button in the nav-bar.
+    // Audio code learned about here: https://stackoverflow.com/questions/18826147/javascript-audio-play-on-click
+    function play_sound(url) {
+      new Audio(url).play();
+    }
+    </script>
+  </head>
+  <body>
+    <!-- Navigation bar for Pigs for Noobs! -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="index.html"><b>Pigs for Noobs!</b></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="behavior.html">Guinea Pig Behavior</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="care.html">Guinea Pig Care</a>
+          <li class="nav-item">
+            <a class="nav-link" href="resources.html">Resources</a>
+          </li>
+        </ul>
+        <!-- Button/audio clip of guinea pig squeaking used in the nav-bar -->
+        <button onclick="play_sound('sounds/gpig_squeak.m4a')" type="button" class="btn btn-outline-info"><img src="images/gPigFace.png" alt="Image of a guinea pig face" width="30"></button>
+      </div>
+    </nav>
+
+    <!-- Behavioral Content -->
+    <h1>Behavior</h1>
+    <!-- Personality section -->
+    <h4>Pigs Are People Too</h4>
+    <hr class="solid">
+    <p>
+      To put it bluntly, guinea pigs are not teddy bears. They are living, conscious creatures.
+      One should expect them to have personalities, idiosyncrasies, and preferences, just like all other animals.<br><br>
+      One guinea pig might display these characteristics:
+    </p>
+      <ul class="indent">
+          <li>Really shy and timid</li>
+          <li>Loves to eat bananas</li>
+          <li>Enjoys high places</li>
+          <li>Talkative<br></li>
+      </ul>
+    <p>Another guinea pig might display these tendencies instead:</p>
+      <ul class="indent">
+          <li>Super relaxed</li>
+          <li>Loves to sleep</li>
+          <li>Aggressive toward other guinea pigs</li>
+          <li>Likes to be held<br></li>
+      </ul>
+    <p>
+      Pay attention, padawan. Learn about your guinea pigs. Respect their personalities and bond with them. You'll be a better owner
+      (and friend!) if you know their likes and dislikes.
+    </p>
+    <!-- Animal behavior section -->
+    <h4>Pigs Are Also Guinea Pigs</h4>
+    <hr class="solid">
+    <p>Guinea pigs are guinea pigs for a reason, so we can generalize a few things about them:</p>
+    <ul class ="indent">
+      <li>
+        <em>Guinea pigs are prey animals.</em> That means they scare easily. So try to avoid making abrupt,
+        loud noises or hasty movements, or picking them up and acting like a loud, obnoxious fool.
+        And <b>never, ever</b> put on that hawk costume you have in your closet and
+        pretend to fly around your apartment making screeching noises (while there are guinea pigs present).
+      </li>
+      <li>
+        <em>Guinea pigs are herd animals.</em> That means they need friends. You can buy or adopt one and be
+        their friend, but they'd probably prefer guinea pig friends over you if they had a choice. Just saying.
+      </li>
+      <li>
+        <em>Guinea pigs poop everywhere.</em> But don't fault them for it. They <em>are</em> pigs after all.
+      </li>
+    </ul>
+    <!-- Resources section -->
+    <h4>Resources</h4>
+    <hr class="solid">
+    <p>
+      Here are some great resources on guinea pig behavior:
+    </p>
+    <ul style="padding-bottom: 30px">
+      <li class="indent"><a target="_blank" href="https://en.wikipedia.org/wiki/Guinea_pig#Behavior">Guinea Pig Behavior, Wikipedia</a></li>
+
+      <li class="indent">Guinea Pig Noises & What They Mean (YouTube Channel: Little Adventures):
+        <iframe style="margin-bottom: 20px; margin-top: 20px;" src="https://www.youtube.com/embed/BB8j3X3UyZA" height="300" width="600" title="Guinea Pig Behavior via Little Adventures"></iframe>
+      </li>
+
+      <li class="indent">Six Signs Your Guinea Pig Loves You (YouTube Channel: Little Adventures):
+        <iframe style="margin-bottom: 20px; margin-top: 20px;" src="https://www.youtube.com/embed/lo5L8MMZufQ" height="300" width="600" title="Guinea Pig Behavior via Little Adventures"></iframe>
+      </li>
+
+      <li class="indent">Crazy Guinea Pigs Doing Crazy Things (YouTube Channel: It's Pigs!):
+        <iframe style="margin-bottom: 20px; margin-top: 20px;" src="https://www.youtube.com/embed/jcAjGYky4OA" height="300" width="600" title="Guinea Pig Behavior via It's Pigs"></iframe>
+      </li>
+
+      <li class="indent">Scared and Annoyed Guinea Pigs (Don't do this!):
+        <iframe style="margin-top: 20px;" src="https://www.youtube.com/embed/ic5fegBGGYE" height="300" width="600" title="Bad Guinea Pig Treatment"></iframe>
+        <iframe src="https://www.youtube.com/embed/WSoieiTdQRs" height="300" width="600" title="Bad Guinea Pig Treatment"></iframe>
+      </li>
+    </ul>
+  </body>
+</html>

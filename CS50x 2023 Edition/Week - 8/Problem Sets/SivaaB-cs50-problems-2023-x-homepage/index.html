@@ -1,0 +1,64 @@
+<!-- Main page: An educational website about guinea pigs and how to treat them as pets. -->
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <title>Pigs For Noobs | Home</title>
+    <script>
+    // Play a clip of a guinea pig squeaking when a user clicks the gpig button in the nav-bar.
+    // Audio code learned about here: https://stackoverflow.com/questions/18826147/javascript-audio-play-on-click
+    function play_sound(url) {
+      new Audio(url).play();
+    }
+    </script>
+  </head>
+  <body>
+    <!-- Navigation bar for Pigs for Noobs! -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="index.html"><b>Pigs for Noobs!</b></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="behavior.html">Guinea Pig Behavior</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="care.html">Guinea Pig Care</a>
+          <li class="nav-item">
+            <a class="nav-link" href="resources.html">Resources</a>
+          </li>
+        </ul>
+        <!-- Button/audio clip of guinea pig squeaking used in the nav-bar -->
+        <button onclick="play_sound('sounds/gpig_squeak.m4a')" type="button" class="btn btn-outline-info"><img src="images/gPigFace.png" alt="Image of a guinea pig face" width="30"></button>
+      </div>
+    </nav>
+
+    <!-- Homepage content -->
+    <h1 style= "margin-left: 200pt;">Welcome to Pigs for Noobs!</h1>
+    <h4 style= "margin-left: 200pt;">An educational jumping-off point for would-be floofball (guinea pig) owners</h4>
+    <img class ="indent_img" src="images/GuineaPigMainPage.jpg" alt="A curious guinea pig out for treats" width="615">
+    <h6 style="margin-left: 200pt; margin-top: 15px"><em>"Serve me carrots you filthy human."</em></h6>
+    <h4 class="indent" style="margin-top: 25px; margin-bottom: 20px;">About Pigs for Noobs!</h4>
+    <hr class="solid">
+    <p class="indent" style="padding-bottom: 30px">
+      If you're here, you've probably already gotten yourself a guinea pig(s)
+      or you're thinking about it.<br><br>
+
+      Guinea pigs can be awesome, loving, and terrifically fun pets.
+      But they require care and responsibility. This website is meant to
+      get you <em>started</em> on the right path to guinea pig stewardship, but by no means is it comprehensive.<br><br>
+
+      Here you'll learn about the generalities of guinea pig behavior, good caretaking practices,
+      and get access to links to resources from very experienced guinea pig owners that can tell you
+      more about how to be a stellar pet owner. See the links in the navigation bar at the top of the page to
+      get started learning!
+    </p>
+  </body>
+</html>

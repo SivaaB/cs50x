@@ -1,0 +1,11 @@
+sort1 uses: Bubble Sort
+
+How do you know?: Was in the middle. 
+
+sort2 uses: Merge Sort
+
+How do you know?: Took least amount of time.
+
+sort3 uses: Selection Sort
+
+How do you know?: Took most amount of time.
