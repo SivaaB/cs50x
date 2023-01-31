@@ -20,7 +20,7 @@ For Reference Only
 </pre>
 
 Click into each folder to find the solution to every PSet and Lab as of CS50x - 2023. 
-Kindly keep in mind about the <a href="https://cs50.harvard.edu/x/2023/honesty/">academic honesty</a> as suggested by the course. 
+<br>Kindly keep in mind about the <a href="https://cs50.harvard.edu/x/2023/honesty/">academic honesty</a> as suggested by the course. 
 
 Finished on 06/02/2023!
 PS : Note to future self this is a course I shall always look back at with fond memories, thank you David! :)
