@@ -27,6 +27,6 @@ Finished on 02/02/2023!
 
 <p align="center">
 <a href="" target="_blank">
-<img src="./images/certificate.png" alt="" />
+<img src="./images/Certificate.png" alt="" />
 </a>
 </p>
