@@ -12,7 +12,7 @@ Harvard CS50x — 2023
 </p>
 
 
-## Works
+## Works:
 
 <pre align="center">
 For Reference Only
